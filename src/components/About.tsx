@@ -10,7 +10,7 @@ function About() {
                     <div>
                         <h2
                             className="font-medium text-xl sm:text-xl md:text-3xl leading text-start 
-               border-s-4 border-[#3E841D] border-solid ps-2">
+                              border-s-4 border-[#3E841D] border-solid ps-2">
                             <span className="block">About Us</span>
                         </h2>
 

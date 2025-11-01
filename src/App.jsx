@@ -5,6 +5,8 @@ import NewHeader from './components/NewHeader'
 import Hero from './components/Hero';
 import Services from './components/Services';
 import About from './components/About';
+import CoreValues from './components/CoreValues';
+import Contact from './components/Contact';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -16,7 +18,9 @@ function App() {
       <Hero />
       <About />
       <Services />
-      {/* <h1 className='text-black font-bold text-4xl'>{t('Welcome')}</h1> */}
+      <CoreValues />
+      <Contact />
+      <h1 className='text-black font-bold text-4xl'>{t('Welcome')}</h1>
     </>
   )
 }

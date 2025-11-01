@@ -8,14 +8,13 @@ function Services() {
   // const t = useTranslations("commonQuest");
 
   const faqItems = [
-    { title: "faq", content: "faq" },
-    { title: "faq", content: "faq" },
-    { title: "faq", content: "faq" },
-    { title: "faq", content: "faq" },
-    { title: "faq", content: "faq" },
-    { title: "faq", content: "faq" },
-    { title: "faq", content: "faq" },
-    { title: "faq", content: "faq" },
+    { title: "Legal Consultations", content: "Providing accurate legal and Sharia advice in various disciplines, supported by deep experience and a comprehensive understanding of Saudi regulations." },
+    { title: "Pleading before judicial authorities", content: "Representing clients before courts of all levels and relevant committees, drafting legal memoranda, and following up on cases until final judgments are issued." },
+    { title: "Preparing legal studies", content: "Analyzing relevant issues and regulations to prepare in-depth legal studies that contribute to supporting legal decisions and procedures." },
+    { title: "Preparing statements of claim and objection", content: "Drafting statements of claim, objection and legal pleadings with high efficiency in accordance with the requirements of the judicial authorities." },
+    { title: "Drafting and reviewing contracts", content: "Preparing, drafting, and reviewing all types of contracts and agreements in a way that preserves the rights of the parties and reduces legal risks." },
+    { title: "Documentation and Real Estate Registration Services", content: "Providing documentation services approved by the Ministry of Justice and the General Authority for Real Estate • Notarization of powers of attorney, declarations, and contracts • Notarization of company contracts, mortgages, and commercial agreements.• Electronic notarization services through judicial platforms.• Real estate registration." },
+    { title: "Arbitration and Dispute Resolution", content: "Providing arbitration and legal mediation services to resolve commercial and civil disputes in a professional and fast manner." }
   ];
   // const c = useTranslations("CommonQuestion");
   const language = useCurrentLang();
